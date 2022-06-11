@@ -50,11 +50,11 @@
     }
     .experience__container>div {
         width: 80%;
-        /* padding: 2rem; */
-        margin: auto auto;
+        padding: 2rem;
+        margin: 0 auto;
     }
     .experience__content {
-        padding: 0.5rem;
+        padding: 1rem;
     }
 }
 
@@ -64,11 +64,9 @@
 @media screen and (max-width: 600px) {
     .experience__container {
         gap: 2rem;
-        /* margin: 0 0; */
     }
     .experience__container>div {
         width: 100%;
         padding: 2rem 2rem;
-        margin-left: 0.9rem;
     }
 }

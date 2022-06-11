@@ -17,8 +17,8 @@
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
     --container-width-lg: 75%;
-    --container-width-md: 100%;
-    --container-width-sm: 100%;
+    --container-width-md: 86%;
+    --container-width-sm: 90%;
     --transition: all 400ms ease;
     --footer-primary: #001e00;
 }
@@ -35,6 +35,7 @@ body {
     font-family: 'Poppins', sans-serif;
     background: var(--color-bg);
     color: var(--color-white);
+    line-height: 1.7;
     background-image: url(../src/assets/bg-texture.png);
 }
 

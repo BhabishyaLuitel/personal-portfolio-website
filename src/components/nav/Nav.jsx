@@ -19,7 +19,11 @@ const Nav = () => {
       <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><BiMessageRoundedDetail/></a>
     </nav>
 
+    
+
   )
+  
 }
+
 
 export default Nav
