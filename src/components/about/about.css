@@ -28,6 +28,7 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 1.5rem;
+        margin: 0 0;
     }
     
     .about__card {
@@ -41,7 +42,7 @@
     
     .about__card:hover {
         background: transparent;
-        border-color: var(--color-primary-variant);
+        border-color: var(--color-primary);
         cursor: default;
     }
     
@@ -63,6 +64,7 @@
     .about__content p {
         margin: 2rem 0 2.6rem;
         color: var(--color-light);
+        padding: 0rem;
     }
     /* ====================== MEDIA QUERIES (MEDIUM DEVICES) ==================*/
     

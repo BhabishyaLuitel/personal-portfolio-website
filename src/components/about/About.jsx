@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-about.jpg'
+import ME from '../../assets/me-about.jpeg'
 import {FaAward} from 'react-icons/fa'
 
 const about = () => {
@@ -21,28 +21,27 @@ const about = () => {
             <article className='about__card'>
               <FaAward className='about__icon' />
               <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <small>7+ Years Working</small>
             </article>
 
             <article className='about__card'>
               <FaAward className='about__icon' />
               <h5>Clients</h5>
-              <small>50+ clients all over the World</small>
+              <small>80+ clients all over the World</small>
             </article>
 
             <article className='about__card'>
               <FaAward className='about__icon' />
               <h5>Projects</h5>
-              <small>100+ projects completed</small>
+              <small>200+ projects completed</small>
             </article>
             
 
           </div>
           <p>
-            I am a full-stack web developer with a passion for building
-            beautiful and functional websites. I have a background in
-            computer science and a passion for learning new technologies.
+          I'm an engineer, GIS Specialist, and Graphics designer. My area of expertise includes plans, conceptual designing, CAD documentation, cartography, landscape designing, planning, web maps, 3D modeling for design analysis and visualization.
           </p>
+          <p>I use ArcGIS, QGIS, Erdas Imagine, Adobe Suite with Mapublisher, Autodesk AutoCAD, Sketchup V-Ray. I offer visual solutions through a unique approach which turns out to be a fusion of my technical skills of Mapping and Graphics.</p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>

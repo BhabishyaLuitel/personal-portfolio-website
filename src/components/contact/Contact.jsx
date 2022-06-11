@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import './contact.css'
 import {FiMail} from 'react-icons/fi'
@@ -45,7 +46,7 @@ const Contact = () => {
           <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
           <button type='submit' className='btn btn-primary'>Send Message</button>
         </form>
-
+        <a href="#" className='scroll__up'>Go to Top</a>
       </div>
     </section>
   )

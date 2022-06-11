@@ -10,16 +10,17 @@
 }
 
 :root {
-    --color-bg: #1f1f38;
-    --color-bg-variant: #2c2c6c;
-    --color-primary: #4db5ff;
-    --color-primary-variant: rgba(77, 181, 255, 0.4);
+    --color-bg: #000;
+    --color-bg-variant: #282828;
+    --color-primary: #14a800;
+    --color-primary-variant: #186784;
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
     --container-width-lg: 75%;
     --container-width-md: 100%;
     --container-width-sm: 100%;
     --transition: all 400ms ease;
+    --footer-primary: #001e00;
 }
 
 html {

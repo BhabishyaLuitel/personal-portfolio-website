@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import './footer.css'
@@ -7,26 +8,30 @@ import {SiGmail} from 'react-icons/si'
 
 const Footer = () => {
   return (
-    <Footer>
-      <a href="#" className='footer__logo'>Jitan</a>
+    <footer>
+      <a href="#" className='footer__logo'>JITAN</a>
 
       <ul className='permalinks'>
         <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Experience</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Testimonials</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
 
       <div className='footer__socials'>
-        <a href="https://twitter.com"><AiOutlineTwitter/></a>
-        <a href="https://upwork.com"><SiUpwork/></a>
-        <a href="https://gmail.com"><SiGmail/></a>
+        <a href="https://twitter.com/jitandahal" target="_blank"><AiOutlineTwitter/></a>
+        <a href="https://www.upwork.com/freelancers/~01a3d59d908011415a" target="_blank"><SiUpwork/></a>
+        <a href="mailto:jitandahal@gmail.com" target="_blank"><SiGmail/></a>
 
       </div>
-    </Footer>
+
+      <div className='footer__copyright'>
+        <small>Developed By Bhabishya</small>
+      </div>
+    </footer>
   )
 }
 

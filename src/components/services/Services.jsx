@@ -11,35 +11,48 @@ const Services = () => {
       <div className='container services__container'>
         <article className='service'>
           <div className='service__head'>
-            <h3>UI/UX Design</h3>
+            <h3>Engineering</h3>
           </div>
         <ul className='service__list'>
-          <li>
+        <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <p>Estimation</p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <p>Floor Plan Design</p>
+          </li>
+        <li>
+            <BiCheck className='service__list-icon'/>
+            <p>Drawing</p>
+          </li>
+        <li>
+            <BiCheck className='service__list-icon'/>
+            <p>2D/3D Modeling </p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <p>Surveying</p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <p>Designing</p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <p>Supervise</p>
           </li>
+          <li>
+            <BiCheck className='service__list-icon'/>
+            <p>Construction</p>
+          </li>
+     
 
         </ul>
         </article>
-        <article className='service'>
+        {/* <article className='service'>
           <div className='service__head'>
-            <h3>Web Development</h3>
+            <h3></h3>
           </div>
         <ul className='service__list'>
           <li>
@@ -64,33 +77,46 @@ const Services = () => {
           </li>
           
         </ul>
-        </article>
+        </article> */}
 
         <article className='service'>
           <div className='service__head'>
-            <h3>Content Creation</h3>
+            <h3>Maps</h3>
           </div>
         <ul className='service__list'>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <p>Political</p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <p>Physical</p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <p>Topographic</p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <p>Road</p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <p>Real Estate</p>
           </li>
+          <li>
+            <BiCheck className='service__list-icon'/>
+            <p>Tourist</p>
+          </li>
+          <li>
+            <BiCheck className='service__list-icon'/>
+            <p>Cycling</p>
+          </li>
+          <li>
+            <BiCheck className='service__list-icon'/>
+            <p>Regional</p>
+          </li>
+          
           
         </ul>
         </article>
