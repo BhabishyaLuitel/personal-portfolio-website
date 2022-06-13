@@ -47,9 +47,9 @@
     }
     
     .footer__copyright {
-        margin-bottom: 4rem;
-        color: var(--color-bg);
-        font-weight: 500;
+        margin-bottom: 3.5rem;
+        color: var(--color-white);
+        font-weight: 200;
     }
     /* ====================== MEDIA QUERIES (SMALL DEVICES) ================== */
     

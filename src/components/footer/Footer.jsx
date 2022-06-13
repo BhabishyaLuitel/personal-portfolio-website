@@ -9,7 +9,7 @@ import {SiGmail} from 'react-icons/si'
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className='footer__logo'>JITAN</a>
+      <a href="#" className='footer__logo'>JD</a>
 
       <ul className='permalinks'>
         <li><a href="#">Home</a></li>
@@ -22,7 +22,7 @@ const Footer = () => {
       </ul>
 
       <div className='footer__socials'>
-        <a href="https://twitter.com/jitandahal" target="_blank"><AiOutlineTwitter/></a>
+        <a href="https://twitter.com/JDdahal" target="_blank"><AiOutlineTwitter/></a>
         <a href="https://www.upwork.com/freelancers/~01a3d59d908011415a" target="_blank"><SiUpwork/></a>
         <a href="mailto:jitandahal@gmail.com" target="_blank"><SiGmail/></a>
 
