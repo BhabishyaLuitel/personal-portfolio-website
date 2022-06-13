@@ -10,8 +10,10 @@ nav {
     bottom: 2rem;
     display: flex;
     gap: 0.8rem;
-    border-radius: 3rem;
-    backdrop-filter: blur(15px);
+    border-radius: 4rem;
+    backdrop-filter: blur(13px);
+    border-color: var(--color-white);
+    border: 0.2px solid;
 }
 
 nav a {
